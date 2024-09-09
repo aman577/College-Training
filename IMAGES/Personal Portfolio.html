@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)http://127.0.0.1:5500/PRACTICES/portfolio.htm -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./Personal Portfolio_files/css2" rel="stylesheet">
+<style>
+    * {
+
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: rgb(255, 255, 255);
+
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    /* header,
+    .navbar nav,
+    ul,
+    li {
+        border: 1px solid rgb(151, 17, 17);
+    } */
+    .firstdiv {
+        /* border: 2px solid rgb(161, 40, 40); */
+        width: 100%;
+        height: 100vh;
+        /* background-color: rgb(1, 146, 139); */
+        position: relative;
+        /* border-radius: 10px; */
+        /* left: 10%; */
+    }
+
+    header {
+        background-color: rgb(0, 0, 0);
+
+    }
+
+    .logo {
+        width: 40%;
+        /* border: 2px solid red; */
+    }
+
+    nav {
+        display: flex;
+        background-color: rgb(0, 0, 0);
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .navbar {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 28px 0px;
+        margin-left: 13%;
+        width: 40%;
+    }
+
+    .navbar li:hover {
+        color: rgb(80, 194, 214);
+        scale: 1.3;
+        transition: 0.5s;
+    }
+
+    .navbar li {
+        padding: 0px 8px;
+        color: rgb(255, 255, 255);
+        font-size: medium;
+    }
+
+    img {
+        position: absolute;
+        left: 12%;
+        height: 73px;
+    }
+
+    .main_section {
+        padding-left: 10px;
+        position: absolute;
+        left: 12%;
+        top: 25%;
+        width: 56%;
+        height: 60vh;
+        /* border: 2px solid black; */
+    }
+
+    video {
+        position: absolute;
+        /* left: 0; */
+        /* top: 0; */
+        width: 100%;
+        z-index: -100%;
+    }
+
+
+    div>h3 {
+        font-size: 50px;
+        color: aliceblue;
+
+    }
+
+    .heading_text {
+        font-size: 44px;
+        color: aliceblue;
+    }
+
+    .main_text {
+        color: aliceblue;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .main_div {
+        position: relative;
+    }
+
+    .main_img {
+        position: absolute;
+        left: 90%;
+        height: 100vh;
+    }
+
+    .buttonfd {
+        /* border: 2px solid black; */
+        height: 7vh;
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px 30px;
+    }
+
+    .b1 {
+        color: aliceblue;
+        width: 40%;
+        height: 1.2cm;
+        border-radius: 10px;
+        background-color: rgb(11, 10, 83);
+    }
+
+    .b1:hover {
+        scale: 1.1;
+        transition: 0.5s;
+    }
+
+    .b2 {
+        /* width: 18%; */
+        color: rgb(228, 228, 228);
+        width: 40%;
+        height: 1.2cm;
+        border-radius: 10px;
+        background-color: rgb(94, 171, 207);
+    }
+
+    .b2:hover {
+        scale: 1.1;
+        transition: 0.5s;
+    }
+
+    .seconddiv {
+        /* border: 2px solid rgb(199, 188, 188); */
+        background-color: rgb(219, 243, 175);
+        width: 100%;
+        height: 100vh;
+        /* border-radius: 10px; */
+        position: relative;
+        /* left: 10%; */
+
+
+
+    }
+
+    .seconddivsection:hover {
+        scale: 1.04;
+        transition: .5s;
+    }
+
+    .seconddivsection {
+        background-image: url(/IMAGES/Snapchat-126351208.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 30px;
+        /* border: 2px solid black; */
+        position: absolute;
+        left: 2%;
+        top: 10%;
+        height: 80vh;
+        width: 30%;
+    }
+
+    .seconddivsection2 {
+        /* border: 2px solid black; */
+        position: absolute;
+        height: 76vh;
+        width: 60%;
+        left: 33%;
+        top: 12%;
+
+    }
+
+    .biography {
+        list-style: none;
+    }
+
+    .name,
+    .email,
+    .phone,
+    .from {
+        color: grey;
+    }
+
+    .span1 {
+        /* border: 2px solid black; */
+        position: absolute;
+        left: 10%;
+        top: 53%;
+    }
+
+    .span2 {
+        /* border: 2px solid black; */
+        position: absolute;
+        left: 61.5%;
+        top: 53%;
+
+    }
+
+    .bio_para {
+        color: gray;
+        position: absolute;
+        left: 10%;
+        top: 2%;
+
+    }
+
+    .bio_heading {
+        position: absolute;
+        top: 10%;
+        width: 65%;
+        left: 10%;
+
+    }
+
+    .main_para_secondivsection2 {
+        /* border: 2px solid black; */
+        color: gray;
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        top: 33%;
+
+    }
+
+    .followme {
+
+        list-style: none;
+    }
+
+    .followmeon {
+        position: absolute;
+        left: 10%;
+        top: 73.2%;
+    }
+
+    .followme .fb {
+        height: 18px;
+        width: 18px;
+        position: absolute;
+        top: 73.5%;
+        left: 28%;
+    }
+
+    .followme .ig {
+        height: 18px;
+        width: 18px;
+        position: absolute;
+        top: 73.5%;
+        left: 34%;
+    }
+
+    .followme .tr {
+        height: 18px;
+        width: 18px;
+        position: absolute;
+        left: 40%;
+        top: 73.5%;
+
+    }
+
+    .followme .ln {
+        height: 18px;
+        width: 18px;
+        position: absolute;
+        top: 73.5%;
+        left: 46%;
+    }
+
+    .buttonsd {
+        /* border: 2px solid black; */
+        width: 40%;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px;
+        height: 6vh;
+        position: absolute;
+        left: 10%;
+        top: 80%;
+
+    }
+
+    .b3 {
+        color: white;
+        border: 1px solid rgb(25, 124, 124);
+        height: 42px;
+        width: 100px;
+        border-radius: 25px;
+        background-color: rgb(25, 124, 124);
+    }
+
+    .b4 {
+        color: white;
+        border: 1px solid rgb(35, 180, 6);
+        height: 42px;
+        width: 130px;
+        border-radius: 25px;
+        background-color: rgb(35, 180, 6);
+    }
+
+    .div3 {
+        /* background-color: rgb(143, 118, 255);     */
+        /* border: 2px solid red; */
+        width: 80%;
+        height: 100vh;
+        border-radius: 10px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        left: 10%;
+    }
+
+    .divsection3 {
+
+        /* position: relative; */
+        margin: auto;
+        width: 45%;
+        height: 80vh;
+        /* border: 2px solid black;  */
+
+    }
+
+    .divsection4 {
+        /* position: absolute; */
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45%;
+        height: 80vh;
+        /* border: 2px solid black; */
+
+    }
+
+    .img {
+        position: absolute;
+        /* border: 2px solid black; */
+        height: 350px;
+        width: 350px;
+        background-image: url(/IMAGES/Hobbies.png);
+        background-size: contain;
+    }
+
+    @media screen and (max-width:450px) {
+        nav {
+            width: 500px;
+        }
+
+        .firstdiv {
+            width: 500px;
+        }
+
+        .main_section {
+            /* background-color: aquamarine; */
+            top: 5%;
+            width: 350px;
+            height: 670px;
+        }
+
+        .buttonfd {
+            position: absolute;
+            top: 95%;
+        }
+
+        .seconddiv {
+            width: 500px;
+            height: 79vh;
+        }
+
+        .seconddivsection {
+            background-size: 500px;
+            width: 500px;
+            background-color: white;
+            border-radius: 0;
+            height: 100vh;
+            left: 0;
+            top: 0%;
+        }
+
+        .seconddivsection2 {
+            /* border: 2px solid black; */
+            height: 50vh;
+            position: absolute;
+            left: 0%;
+            top: 100%;
+            width: 485px;
+        }
+
+        .followmeon {
+            position: absolute;
+            top: 71%;
+            /* border: 2px solid rgb(15, 9, 9); */
+        }
+
+
+        .followme .fb {
+            height: 18px;
+            width: 18px;
+            position: absolute;
+            top: 71%;
+            left: 38%;
+        }
+
+        .followme .ig {
+            height: 18px;
+            width: 18px;
+            position: absolute;
+            top: 71%;
+            left: 44%;
+        }
+
+        .followme .tr {
+            height: 18px;
+            width: 18px;
+            position: absolute;
+            left: 50%;
+            top: 71%;
+
+        }
+
+        .followme .ln {
+            height: 18px;
+            width: 18px;
+            position: absolute;
+            top: 71%;
+            left: 56%;
+        }
+
+        .div3 {
+            flex-direction: column;
+            height: 50vh;
+            position: relative;
+            /* border: 2px solid red; */
+            top: 420px;
+            width: 500px;
+            left: 0;
+        }
+
+        .divsection3 {
+            width: 200px;
+            height: 35vh;
+            left: 0;
+            top: 0;
+            /* border: 2px solid rgb(62, 4, 197); */
+        }
+
+        .divsection3 .heading_h3 {
+            top: 10%;
+            left: 35%;
+
+        }
+
+        .divsection3 .uiux2 {
+            left: 55%;
+        }
+
+        .divsection4 {
+            position: absolute;
+            /* border: 2px solid black;  */
+            top: 500px;
+            height: 50vh;
+            width: 500px;
+            left: 0;
+        }
+
+        .divsection4 .heading_h4 {
+            left: 0;
+            top: 0;
+            right: 4%;
+        }
+
+        .divsection4 .img {
+            top: 13%;
+        }
+
+        body .div6main {
+            position: relative;
+            /* border: 2px solid black; */
+            top: 850px;
+            width: 500px;
+            height: 80vh;
+            left: 0;
+
+        }
+
+        .div6main .firstdiv6 {
+            /* border: 2px solid black; */
+            width: 490px;
+            position: absolute;
+            left: 0%;
+        }
+
+        .div6main .seconddiv6 {
+            position: absolute;
+            background-size: 490px;
+            /* display: none; */
+            /* border: 2px solid black; */
+            width: 500px;
+            left: 0;
+            top: 50%;
+        }
+
+        body .div4 {
+            top: 800px;
+            width: 500px;
+            /* border: 2px solid black; */
+        }
+
+        .div4 .div4h2 {
+            font-size: 35px;
+
+        }
+
+        .div4 .buttond4 {
+            /* border: 2px solid black; */
+            width: 300px;
+        }
+
+        body .div5 {
+            /* border: 2px solid red; */
+            width: 500px;
+            left: 0;
+            top: 770px;
+        }
+
+        body footer {
+            position: absolute;
+            top: 5550px;
+            width: 500px;
+        }
+
+    }
+
+
+    @media screen and (max-width:1074px) {
+        .firstdiv {
+            background-color: rgb(71, 109, 231);
+
+            height: 100vh;
+        }
+
+        @media screen and (max-width:785px) {
+            .logo {
+                display: none;
+            }
+
+
+        }
+
+    }
+
+    .heading_h3 {
+        text-align: center;
+        font-size: 35px;
+        position: absolute;
+        top: 15%;
+        left: 20%;
+    }
+
+    .heading_h4 {
+        text-align: center;
+        font-size: 35px;
+        position: absolute;
+        top: 15%;
+        left: 67%;
+    }
+
+    .webline {
+        top: 30%;
+        width: 45%;
+        border: 1px solid black;
+        height: 10px;
+        border-radius: 10px;
+        position: absolute;
+    }
+
+    .insidewebline {
+        width: 85%;
+        border: rgb(0, 255, 55);
+        height: 10px;
+        border-radius: 10px;
+        position: absolute;
+        background-color: rgb(0, 255, 55);
+
+    }
+
+    .uiux {
+        top: 45%;
+        width: 45%;
+        border: 1px solid rgb(0, 0, 0);
+        height: 10px;
+        border-radius: 10px;
+        position: absolute;
+    }
+
+    .insideuiux {
+        width: 70%;
+        border: rgb(0, 255, 55);
+        height: 10px;
+        border-radius: 10px;
+        background-color: rgb(0, 255, 55);
+        position: absolute;
+
+    }
+
+    .js {
+        top: 60%;
+        width: 45%;
+        border: 1px solid black;
+        height: 10px;
+        border-radius: 10px;
+        position: absolute;
+    }
+
+    .insidejs {
+        width: 90%;
+        border: rgb(0, 255, 55);
+        height: 10px;
+        border-radius: 10px;
+        position: absolute;
+        background-color: rgb(0, 255, 55);
+
+    }
+
+    .photoshop {
+        top: 75%;
+        width: 45%;
+        border: 1px solid black;
+        height: 10px;
+        border-radius: 10px;
+        position: absolute;
+    }
+
+    .insideps {
+        width: 75%;
+        border: rgb(0, 255, 55);
+        height: 10px;
+        border-radius: 10px;
+        background-color: rgb(0, 255, 55);
+        position: absolute;
+
+    }
+
+    .webp {
+        font-size: larger;
+        position: absolute;
+        top: 26%;
+        left: 5%;
+    }
+
+    .uiuxp {
+        position: absolute;
+        font-size: larger;
+        top: 41%;
+        left: 5%;
+    }
+
+    .jsp {
+        font-size: larger;
+        position: absolute;
+        top: 56%;
+        left: 5%;
+    }
+
+    .psp {
+        position: absolute;
+        font-size: larger;
+        top: 71%;
+        left: 5%;
+    }
+
+    .webp1 {
+        font-size: larger;
+        position: absolute;
+        top: 26%;
+        left: 43%;
+    }
+
+    .uiux2 {
+        font-size: larger;
+        position: absolute;
+        top: 41%;
+        left: 43%;
+    }
+
+    .jsp3 {
+        font-size: larger;
+        position: absolute;
+        top: 56%;
+        left: 43%;
+    }
+
+    .psp4 {
+        position: absolute;
+        font-size: larger;
+        top: 71%;
+        left: 43%;
+    }
+
+    .div4 {
+        width: 100%;
+        /* left: 6.5%; */
+        height: 50vh;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        background-image: url(/IMAGES/FreelanceProject.jpg);
+        /* border: 2px solid green; */
+    }
+
+    .div4::before {
+        content: "";
+        position: absolute;
+        opacity: 100%;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background-color: rgba(0, 0, 0, 0.25);
+    }
+
+    .div4p {
+        top: 20%;
+        font-size: 1.1rem;
+        position: absolute;
+        color: aliceblue;
+
+    }
+
+    .div4h2 {
+        top: 33%;
+        font-size: 2.5rem;
+        position: absolute;
+        color: aliceblue;
+
+    }
+
+    .div4b {
+        height: 8vh;
+        padding: 5px 30px;
+        background-color: rgb(60, 214, 60);
+        border-color: rgb(60, 214, 60);
+        border-radius: 5px;
+        /* position: absolute; */
+        top: 62%;
+        left: 39%;
+    }
+
+    .div4b2 {
+        height: 8vh;
+        border-radius: 5px;
+        top: 62%;
+        border-color: aliceblue;
+        /* position: absolute; */
+        padding: 5px 30px;
+        left: 51.5%;
+    }
+
+    .buttond4 {
+        /* border: 2px solid black; */
+        display: flex;
+        position: relative;
+        top: 60%;
+        justify-content: space-evenly;
+        width: 25%;
+        height: 10vh;
+    }
+
+    .div5 {
+        /* border: 2px solid black; */
+        position: relative;
+        width: 87%;
+        left: 6.5%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .div5p {
+        text-align: center;
+        position: relative;
+        width: 53%;
+        height: 89%;
+        /* border: 2px solid black; */
+    }
+
+    .div5p1,
+    .div5p2,
+    .div5p3 {
+        font-size: 2.5rem;
+
+    }
+
+    .div5span {
+        color: rgb(25, 145, 1);
+    }
+
+    .div5span:hover {
+        text-decoration: underline;
+    }
+
+    .form {
+        /* border: 2px solid black; */
+        height: 465px;
+    }
+
+    #name,
+    #email,
+    #subject,
+    #message {
+        width: 95%;
+        height: 10vh;
+        border-radius: 10px;
+        padding-left: 20px;
+        font-size: 1.1rem;
+        border: 2px solid rgb(150, 150, 150);
+    }
+
+    #message {
+        height: 20vh;
+        padding-top: 10px;
+        resize: none;
+    }
+    
+    .send {
+        height: 50px;
+        width: 130px;
+        font-size: 1.1rem;
+        position: relative;
+        background-color: rgb(9, 219, 149);
+        border-color: inherit;
+        left: 37%;
+        border-radius: 10px;
+    }
+
+    /* div6 Starts */
+    .div6main {
+        /* border: 2px solid black; */
+        height: 90vh;
+        width: 80%;
+        left: 10%;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        position: relative;
+    }
+
+    .div6 {
+        position: relative;
+        /* left: 10%; */
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        /* border: 2px solid black; */
+    }
+
+    .d6h1 {
+        position: absolute;
+        top: 0;
+        font-size: 3rem;
+    }
+
+    .firstdiv6 {
+        /* border: 2px solid red; */
+        width: 40%;
+    }
+
+    .div6h3 {
+        font-size: 1.9rem;
+    }
+
+    .pdiv6 {
+        color: grey;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+
+    .div6b1 {
+        width: 30%;
+        height: 50px;
+        font-weight: 500;
+        font-size: 1rem;
+        color: aliceblue;
+        background-color: rgb(44, 179, 73);
+        border-color: inherit;
+        border-radius: 10px;
+    }
+
+    .seconddiv6 {
+        /* border: 2px solid blue ; */
+        width: 54%;
+        height: 400px;
+        background-image: url(/IMAGES/work.png);
+        background-size: 550px;
+        background-repeat: no-repeat;
+        align-items: center;
+        position: relative;
+        left: 5%;
+    }
+
+    /* div6 ends */
+    footer {
+        background-color: black;
+        height: 20vh;
+        width: 100%;
+        color: white;
+        position: relative;
+    }
+
+    .footer {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+</style></head>
+
+
+<body data-new-gr-c-s-check-loaded="14.1194.0" data-gr-ext-installed="">
+    <nav>
+        <div class="logo">
+            <img src="./Personal Portfolio_files/LOGO.jpg" alt="Logo">
+        </div>
+        <ul class="navbar">
+            <a href="http://127.0.0.1:5500/PRACTICES/portfolio.htm#firstdiv">
+                <li class="nav_element1st">Home</li>
+            </a>
+            <a href="http://127.0.0.1:5500/PRACTICES/portfolio.htm#seconddiv">
+                <li class="nav_element2nd">About</li>
+            </a>
+            <a href="http://127.0.0.1:5500/PRACTICES/portfolio.htm#thirddiv">
+                <li class="nav_element3rd">Services</li>
+            </a>
+            <a href="http://127.0.0.1:5500/PRACTICES/portfolio.htm#div5">
+                <li class="nav_element4th">Join Me</li>
+            </a>
+            <a href="http://127.0.0.1:5500/PRACTICES/portfolio.htm">
+                <li class="nav_element5th">Blog</li>
+            </a>
+            <a href="http://127.0.0.1:5500/PRACTICES/portfolio.htm">
+                <li class="nav_element5th">Contact</li>
+            </a>
+        </ul>
+    </nav>
+    <div class="video"><video autoplay="" muted="" loop="">
+            <source src="/IMAGES/video.mp4" type="video/mp4">
+        </video> </div>
+    <div class="firstdiv" id="firstdiv">
+
+        <section class="main_section">
+            <div class="main_div">
+                <h3><span class="heading_text"> <small>Hello, I'm</small></span> Khemraj Bahadur Raut</h3>
+                <br><br>
+                <p class="main_text">
+                    I love to work in User Experience &amp; User Interface designing.
+                    Because I love to solve the design problem and find easy and better solutions to solve it.
+                    I always try my best to make good user interface with the best user experience.
+                </p>
+                <br><br>
+                <div class="buttonfd">
+                    <button class="b1"> My Work</button>
+                    <button class="b2"> Hire Me</button>
+                </div>
+
+            </div>
+        </section>
+
+    </div><br><br>
+    <div class="seconddiv" id="seconddiv">
+
+        <section class="seconddivsection">
+
+        </section>
+        <section class="seconddivsection2">
+            <p class="bio_para">MY BIOGRAPHY</p>
+            <h1 class="bio_heading">
+                A Learner of Web Development and UI/UX designer Based In NEPAL
+            </h1>
+            <p class="main_para_secondivsection2">
+                I love web development, Photography, designing and i am making my portfolio whtout using Bootstraps
+                because i'll make another website using bootstraps
+            </p>
+            <p>
+            </p><ul class="biography">
+                <div class="span1">
+                    <li>name:<span class="name"> Khemraj Bahadur Raut </span></li><br>
+                    <li> Email:<span class="email"> amanraut76@gmail.com</span></li>
+                </div>
+
+                <div class="span2">
+                    <li>From:<span class="from"> NEPAL,Kathmandu</span></li><br>
+                    <li>phone:<span class="phone"> 9842969764</span></li>
+                </div>
+            </ul>
+            <p></p>
+            <div class="follow">
+                <p class="followmeon">Follow me on :</p><br>
+                <div class="ul">
+                    <ul class="followme">
+                        <a href="https://www.facebook.com/aman34701">
+                            <li><img class="fb" src="./Personal Portfolio_files/FB-LOGO.png" alt=""></li>
+                        </a>
+                        <a href="https://www.instagram.com/amanophile/">
+                            <li><img class="ig" src="./Personal Portfolio_files/instagram-logo.png" alt=""></li>
+                        </a>
+                        <a href="https://x.com/AamanChettri">
+                            <li><img class="tr" src="./Personal Portfolio_files/twitter-logo.png" alt=""></li>
+                        </a>
+                        <a href="https://www.linkedin.com/in/aaman-chettri-172b952b3/">
+                            <li><img class="ln" src="./Personal Portfolio_files/linkedin.png" alt=""></li>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="buttonsd">
+                    <button class="b3">Hire Me</button>
+                    <button class="b4">Download CV</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <br><br>
+    <div class="div3">
+        <section class="divsection3">
+            <h3 class="heading_h3">My Skils</h3>
+            <p class="webp">Web Design </p>
+            <p class="webp1">85% </p>
+            <p class="uiux2">70% </p>
+            <p class="jsp3">90% </p>
+            <p class="psp4">75% </p>
+            <div class="webline">
+                <div class="insidewebline"></div>
+            </div>
+            <p class="uiuxp">Ui Design &amp; Development</p>
+            <div class="uiux">
+                <div class="insideuiux"></div>
+
+            </div>
+            <p class="jsp">Javascript</p>
+            <div class="js">
+                <div class="insidejs"></div>
+
+            </div>
+            <p class="psp">Photoshop</p>
+            <div class="photoshop">
+                <div class="insideps"></div>
+
+            </div>
+        </section>
+        <section class="divsection4">
+            <h3 class="heading_h4">My Hobbies</h3>
+            <div class="img">
+
+            </div>
+        </section>
+    </div>
+    <br><br>
+    <div class="div6main" id="thirddiv">
+        <h1 class="d6h1">
+            My Services
+        </h1>
+        <div class="div6">
+            <div class="firstdiv6">
+                <br>
+                <h3 class="div6h3">What i do</h3><br>
+                <p class="pdiv6">Lorem ipsum dolor sit amet, init sed adipisci ngelit. In a et euismod faucibus quam, a
+                    sodales er osplacerat vitae. Sed pretium fermentum luctus.Cras sodales nisl vitae dolor facilisis
+                    dapibus. Integer consectetur in velit eget viverra. Quisque vulputate a nisi blandit molestie.
+                    Aenean sit amet consequat risus, eget egestas est.Nullam eu turpis diam. Ut ac erat vestibulum,
+                    laoreet ex faucibus, iaculis ex. Donec at dolor volutpat, laoreet nisi.</p><br><br>
+                <button class="div6b1">Know More</button>
+            </div>
+            <div class="seconddiv6">
+
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="div4">
+        <p class="div4p">I'am available for freelance projects.</p>
+        <h2 class="div4h2">Let's work together indeed!</h2>
+        <div class="buttond4">
+            <button class="div4b">Get Quotes</button>
+            <button class="div4b2">Hire Me</button>
+        </div>
+    </div>
+    <br><br>
+    <div class="div5" id="div5">
+        <div class="div5p">
+            <p class="div5p1">
+                Want to get in touch?
+            </p>
+            <p class="div5p2">
+                Find me on <span class="div5span">phone</span>, <span class="div5span">email</span>, <span class="div5span">twitter</span>,
+            </p><p>
+            </p><p class="div5p3">
+                or <span class="div5span">linkedin</span>.
+            </p>
+            <br><br>
+            <div class="form">
+                <form action="http://127.0.0.1:5500/PRACTICES/portfolio.htm">
+                    <input type="text" id="name" name="name" placeholder="Enter Your Name"><br><br>
+                    <input type="email" id="email" name="email" placeholder="Enter Your Email"><br><br>
+                    <input type="text" id="subject" name="subject" placeholder="Enter Your subject"><br><br>
+                    <textarea type="text" id="message" placeholder="Enter Your Message"></textarea>
+                    <br><br>
+                    <button class="send">send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <footer>
+        <p class="footer">©copyright 2024.</p>
+    </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
